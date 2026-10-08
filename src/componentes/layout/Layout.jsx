@@ -9,4 +9,4 @@ export function Layout({ children }) {
         {children}
       </main>
       <Footer />
-    </div>);} 
+    </div>);}

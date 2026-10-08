@@ -1,6 +1,8 @@
+import styles from "./Footer.module.css"
+
 function Footer() {  
     return (  
-        <footer style={{ backgroundColor: "#8DE2D6", padding: "10px", textAlign: "center", marginTop: "20px", color:"black" }}>  
+        <footer className={styles.footer}>  
             <p> 2025 - Mi Aplicación React</p>  
         </footer>  
     );  
