@@ -1,7 +1,7 @@
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 
-export function Layout({ children }) {
+function Layout({ children }) {
   return (
     <div>
       <Header />
@@ -9,4 +9,7 @@ export function Layout({ children }) {
         {children}
       </main>
       <Footer />
-    </div>);}
+    </div>);
+}
+
+export default Layout;
